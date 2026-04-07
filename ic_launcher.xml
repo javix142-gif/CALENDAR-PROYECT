@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Agenda Clara</string>
+    <string name="notif_channel_soft_name">Recordatorios</string>
+    <string name="notif_channel_soft_desc">Recordatorios suaves previos o durante el día.</string>
+    <string name="notif_channel_exact_name">Alarmas del evento</string>
+    <string name="notif_channel_exact_desc">Avisos en la hora exacta del evento.</string>
+</resources>
