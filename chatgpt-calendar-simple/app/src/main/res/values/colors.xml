@@ -1,0 +1,6 @@
+<resources>
+    <color name="calendar_primary">#3F51B5</color>
+    <color name="calendar_primary_dark">#303F9F</color>
+    <color name="calendar_accent">#536DFE</color>
+    <color name="calendar_background">#F6F7FB</color>
+</resources>
