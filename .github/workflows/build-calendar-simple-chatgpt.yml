@@ -7,6 +7,12 @@ on:
     paths:
       - 'chatgpt-calendar-simple/**'
       - '.github/workflows/build-calendar-simple-chatgpt.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'chatgpt-calendar-simple/**'
+      - '.github/workflows/build-calendar-simple-chatgpt.yml'
   workflow_dispatch:
 
 permissions:
