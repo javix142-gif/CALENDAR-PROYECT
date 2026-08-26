@@ -27,8 +27,8 @@ jobs:
           gradle-version: '8.13'
       - name: Reconstruct source
         run: |
-          cat tmp_salaremote/part_*.txt | base64 -d > SalaRemote_Android_Source.zip
-          unzip -o SalaRemote_Android_Source.zip || true
+          cat tmp_salaremote/source_*.txt | base64 -d > SalaRemote_Android_Source.zip
+          unzip -q SalaRemote_Android_Source.zip
           test -f SalaRemote/app/src/main/java/cl/javier/salaremote/MainActivity.java
       - name: Build debug APK
         working-directory: SalaRemote
